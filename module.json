@@ -1,0 +1,114 @@
+{
+  "id": "pf2e-zinnerytes-book-of-homebrew-esp",
+  "title": "PF2e Spanish Zinneryte's Book of Homebrew",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Zinneryte",
+      "discord": "@zinneryte",
+      "flags": {}
+    }
+  ],
+    "packFolders": [
+        {
+            "name": "PF2e Spanish Zinneryte's Book of Homebrew (Naruto)",
+            "sorting": "m",
+            "color": "#F28C28",
+            "packs": [
+                "naruto-equipment",
+                "naruto-feats",
+                "naruto-classes",
+                "naruto-spells",
+				"naruto-taijutsu",
+				"naruto-system-explanation"
+            ]
+        }
+    ],
+  "packs": [
+    {
+      "name": "naruto-equipment",
+      "label": "Naruto Equipment",
+      "path": "packs/naruto-equipment",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "naruto-feats",
+      "label": "Naruto Feats",
+      "path": "packs/naruto-feats",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "naruto-classes",
+      "label": "Naruto Classes",
+      "path": "packs/naruto-classes",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "naruto-spells",
+      "label": "Naruto Spells",
+      "path": "packs/naruto-spells",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "naruto-taijutsu",
+      "label": "Naruto Taijutsu",
+      "path": "packs/naruto-taijutsu",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    },
+    {
+      "name": "naruto-system-explanation",
+      "label": "Naruto System Explanation",
+      "path": "packs/naruto-system-explanation",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ]
+}
