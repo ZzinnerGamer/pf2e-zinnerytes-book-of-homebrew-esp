@@ -110,5 +110,7 @@
       "system": "pf2e",
       "flags": {}
     }
-  ]
+  ],
+  "manifest": "https://raw.githubusercontent.com/ZzinnerGamer/pf2e-zynnerytes-homebrew-compedia/main/module.json",
+  "download": "https://github.com/ZzinnerGamer/pf2e-zynnerytes-homebrew-compedia/archive/main.zip"
 }
