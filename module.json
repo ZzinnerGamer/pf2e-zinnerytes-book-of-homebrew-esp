@@ -1,7 +1,7 @@
 {
   "id": "pf2e-zinnerytes-book-of-homebrew-esp",
   "title": "PF2e Spanish Zinneryte's Book of Homebrew",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -13,197 +13,179 @@
         "type": "system",
         "compatibility": {}
       }
+    ],
+    "requires": [
+      {
+        "id": "pf2e-action-support",
+        "type": "module"
+      }
     ]
   },
   "authors": [
     {
       "name": "Zinneryte",
-      "discord": "@zinneryte",
-      "flags": {}
+      "discord": "@zinneryte"
     }
   ],
-    "packFolders": [
-	{
-            "name": "PF2e Spanish Zinneryte's Book of Homebrew (Naruto)",
-            "sorting": "m",
-            "color": "#F28C28",
-            "packs": [
-                "naruto-equipment",
-                "naruto-feats",
-                "naruto-classes",
-                "naruto-spells",
-				"naruto-taijutsu",
-				"naruto-system-explanation"
-            ],
-			"name": "PF2e Spanish Zinneryte's Book of Homebrew (DMC)",
-            "sorting": "m",
-            "color": "#660711",
-            "packs": [
-				"devil-may-cry-classes"
-			],
-			"name": "PF2e Spanish Zinneryte's Book of Homebrew (GW2)",
-            "sorting": "m",
-            "color": "#a83c32",
-            "packs": [
-				"guild-wars-2-armor",
-				"guild-wars-2-items",
-				"guild-wars-2-effects",
-				"guild-wars-2-equipment",
-				"guild-wars-2-consumables",
-				"guild-wars-2-weapons"				
-			]
-	}
-    ],
+  "packFolders": [
+    {
+      "name": "PF2e Spanish Zinneryte's Book of Homebrew (GW2)",
+      "sorting": "m",
+      "color": "#a83c32",
+      "packs": [
+        "guild-wars-2-armor",
+        "guild-wars-2-items",
+        "guild-wars-2-effects",
+        "guild-wars-2-equipment",
+        "guild-wars-2-consumables",
+        "guild-wars-2-weapons"
+      ],
+      "folders": []
+    }
+  ],
   "packs": [
     {
       "name": "naruto-equipment",
       "label": "Naruto Equipment",
       "path": "packs/naruto-equipment",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
+      }
     },
     {
       "name": "naruto-feats",
       "label": "Naruto Feats",
       "path": "packs/naruto-feats",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
+      }
     },
     {
       "name": "naruto-classes",
       "label": "Naruto Classes",
       "path": "packs/naruto-classes",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
+      }
     },
     {
       "name": "naruto-spells",
       "label": "Naruto Spells",
       "path": "packs/naruto-spells",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
+      }
     },
     {
       "name": "naruto-taijutsu",
       "label": "Naruto Taijutsu",
       "path": "packs/naruto-taijutsu",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
+      }
     },
     {
       "name": "naruto-system-explanation",
       "label": "Naruto System Explanation",
       "path": "packs/naruto-system-explanation",
       "type": "JournalEntry",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
+      }
     },
     {
       "name": "devil-may-cry-classes",
       "label": "Devil May Cry Classes",
       "path": "packs/devil-may-cry-classes",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e",
-      "flags": {}
+      }
     },
     {
       "name": "guild-wars-2-weapons",
       "label": "Guild Wars 2 Weapons",
       "path": "packs/guild-wars-2-weapons",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     },
     {
       "name": "guild-wars-2-equipment",
       "label": "Guild Wars 2 Equipment",
       "path": "packs/guild-wars-2-equipment",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     },
     {
       "name": "guild-wars-2-effects",
       "label": "Guild Wars 2 Effects",
       "path": "packs/guild-wars-2-effects",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     },
     {
       "name": "guild-wars-2-armor",
       "label": "Guild Wars 2 Armor",
       "path": "packs/guild-wars-2-armor",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     },
     {
       "name": "guild-wars-2-items",
       "label": "Guild Wars 2 Items",
       "path": "packs/guild-wars-2-items",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     },
     {
       "name": "guild-wars-2-consumables",
       "label": "Guild Wars 2 Consumables",
       "path": "packs/guild-wars-2-consumables",
       "type": "Item",
+      "system": "pf2e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      },
-      "system": "pf2e"
+      }
     }
   ],
   "manifest": "https://raw.githubusercontent.com/ZzinnerGamer/pf2e-zinnerytes-book-of-homebrew-esp/main/module.json",
