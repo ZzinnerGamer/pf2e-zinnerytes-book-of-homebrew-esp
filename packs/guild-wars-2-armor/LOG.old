@@ -1,7 +1,0 @@
-2023/12/01-00:19:52.635 3b20 Recovering log #34
-2023/12/01-00:19:52.816 3b20 Delete type=0 #34
-2023/12/01-00:19:52.816 3b20 Delete type=3 #32
-2023/12/01-01:36:45.576 3638 Level-0 table #39: started
-2023/12/01-01:36:45.576 3638 Level-0 table #39: 0 bytes OK
-2023/12/01-01:36:45.588 3638 Delete type=0 #37
-2023/12/01-01:36:45.589 3638 Manual compaction at level-0 from '!items!1unvNMw8tk7czLJl' @ 72057594037927935 : 1 .. '!items!zGsEJjUFzTK9Btsd' @ 0 : 0; will stop at (end)
